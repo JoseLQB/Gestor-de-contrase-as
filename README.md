@@ -1,2 +1,2 @@
-# Gestor-de-contrase-as
+# Gestor-de-contraseñas
 Programa para gestionar contraseñas
