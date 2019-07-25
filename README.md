@@ -13,6 +13,7 @@ El programa está desarrollado con java.
 
 ### Compilación y ejecución:
 javac Passmain.java
+
 java Passmain
 
 
