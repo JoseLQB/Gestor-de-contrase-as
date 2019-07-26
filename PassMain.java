@@ -8,6 +8,7 @@ public class PassMain {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("[c] para consular");
 		System.out.println("[i] para introducir nuevo registro");
+		System.out.println("[e] para eliminar un registro");
 		System.out.println("[a] para ver todos los registros");
 		String input = sc.nextLine();
 		
@@ -17,6 +18,8 @@ public class PassMain {
 			PassMet.ingresaRegistro();
 		}else if(input.equals("a")) {
 			PassMet.verTodo();
+		}else if(input.equals("e")) {
+			PassMet.eliminar();
 		}else {
 			System.out.println("ERROR: Algo estás haciendo mal.");
 		}
