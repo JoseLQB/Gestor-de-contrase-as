@@ -11,7 +11,7 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 public class PassMet {
-	// Consular un registro espec�fico
+	// Consular un registro especifico
 	public static void consultaPass() throws FileNotFoundException {
 		Scanner sc = new Scanner(System.in);
 		Scanner scFile = new Scanner(new FileReader("files/pass"));
@@ -96,7 +96,7 @@ public class PassMet {
 		FileWriter fw;
 		PrintWriter pw;
 		List<String> list = new ArrayList<String>();
-		System.out.println("�Quieres ver antes todos los registros [s]|[n]");
+		System.out.println("Quieres ver antes todos los registros [s]|[n]");
 		q = scInput.nextLine();
 		if (q.equals("s")) {
 			verTodo();
