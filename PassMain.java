@@ -6,7 +6,7 @@ public class PassMain {
 	public static void main(String[] args) throws FileNotFoundException {
 
 		Scanner sc = new Scanner(System.in);
-		System.out.println("[c] para consular");
+		System.out.println("[c] para consultar");
 		System.out.println("[i] para introducir nuevo registro");
 		System.out.println("[e] para eliminar un registro");
 		System.out.println("[a] para ver todos los registros");
@@ -21,7 +21,7 @@ public class PassMain {
 		}else if(input.equals("e")) {
 			PassMet.eliminar();
 		}else {
-			System.out.println("ERROR: Algo est·s haciendo mal.");
+			System.out.println("ERROR: Algo est√°s haciendo mal.");
 		}
 		sc.close();
 	}
