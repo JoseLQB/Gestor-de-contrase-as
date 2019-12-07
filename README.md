@@ -13,6 +13,7 @@ El programa está desarrollado con java.
 
 ### Actualización
 Se ha añadido una nueva función que permite eliminar registros. 
+Las claves se guardan en formato md5.
 
 ### Compilación y ejecución:
 javac Passmain.java
